@@ -1,0 +1,46 @@
+# Environment variables and database credentials
+.env
+.env.*
+!.env.example
+
+# Private keys and secrets
+*.pem
+*.key
+secrets/
+
+# Apache logs
+*.log
+logs/
+
+# PHP temporary files
+*.cache
+*.tmp
+/vendor/
+
+# Database backups and dumps
+*.sql
+*.sql.gz
+*.dump
+
+# Local configuration files
+config.local.php
+db-config.local.php
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary and backup files
+*.swp
+*~
+*.bak
+
+# Terraform, if used to provision AWS
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
